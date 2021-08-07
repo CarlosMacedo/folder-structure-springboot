@@ -22,6 +22,7 @@ The purpose of this is to be very efficient in extracting the company's business
 
 Furthermore, it is an architecture that can be easily evolved into a micro service architecture. Usually, this happens when the startup grows a exponentially.
 
+## Recommended for
 This model is more efficient for startup and for initial product creation. After all, it is not always necessary to develop based on micro services.
 
 ## Importante
