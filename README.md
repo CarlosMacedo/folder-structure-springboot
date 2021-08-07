@@ -20,7 +20,7 @@ Meanwhile, each component is divided into several parts. Where one party can onl
 
 The purpose of this is to be very efficient in extracting the company's business rules from the code (explicit mapping). After all, this is a very important aspect for a startup.
 
-Furthermore, it is an architecture that can be easily evolved into a micro service architecture. Usually, this happens when the startup grows a exponentially.
+Furthermore, it is an architecture that can be easily evolved into a micro service architecture. Usually, this happens when the startup grows exponentially.
 
 ## Recommended for
 This model is more efficient for startup and for initial product creation. After all, it is not always necessary to develop based on micro services.
