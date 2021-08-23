@@ -34,8 +34,8 @@ public class WebSecurityConfigCorsAndIgnoringEndpoints extends WebSecurityConfig
 	@Bean
     CorsConfigurationSource corsConfigurationSource() {
 		List<String> origins = new ArrayList<String>(Arrays.asList(this.allowedOrigins.split(",")));
-
         CorsConfiguration configuration = new CorsConfiguration();
+        configuration.setAllowedHeaders(Arrays.asList("*"));
         configuration.setAllowedOrigins(origins);
         configuration.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"));
         UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
